@@ -1,0 +1,29 @@
+{
+  "name": "Translator",
+  "version": "1.0.0",
+  "description": "A web translator based on IBM's Watson API.",
+  "main": "index.js",
+  "scripts": {
+    "autostart": "nodemon src/server.js",
+    "start": "node src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aysam199/Translator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aysam199/Translator/issues"
+  },
+  "homepage": "https://github.com/aysam199/Translator#readme",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "dotenv": "^8.2.0",
+    "i": "^0.3.6",
+    "ibm-watson": "^5.3.0",
+    "requier": "0.0.1",
+    "text-to-speech-js": "^1.1.9"
+  }
+}
