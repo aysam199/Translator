@@ -1,0 +1,61 @@
+ @import url(https://fonts.googleapis.com/css?family=Montserrat);
+ * {
+     margin: 0;
+     padding: 0;
+     outline: none;
+     border: none;
+     box-sizing: border-box;
+ }
+
+ .main-container {
+     width: 100vw;
+     margin: 0 auto;
+     border-radius: 20px;
+     background: white;
+ }
+
+ #from, #to {
+     background-color: #8ED5FF;
+     border-radius: 10px;
+     font-size: 25px;
+     font-family: 'BioRhyme', serif;
+     padding: 0px 10px;
+     width: 140px;
+     color: white;
+ }
+
+ #search, #translated {
+     background-color: white;
+     border-radius: 10px;
+     font-size: 30px;
+     font-family: 'BioRhyme', serif;
+     padding: 0px 10px;
+     width: 80%;
+     max-width: 90%;
+ }
+
+ .translate-box {
+     text-align: center;
+ }
+
+ .container {
+     width: 90vw;
+     border: solid 8px #8ED5FF;
+     padding: 10px;
+     margin: 10px auto;
+     height: 20vh;
+ }
+
+ .img1, .img2 {
+     max-width: 100vw;
+     text-align: center;
+ }
+
+ img {
+     max-width: 100vw;
+ }
+
+ .speak {
+     font-size: 45px;
+     background-color: transparent;
+ }

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Translator</title>
+    <link rel="stylesheet" type="text/css" href="public/style.css">
+</head>
+
+<body>
+
+
+    <div class='main-container'>
+        <div class='img1'>
+            <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJOQKpM_YCG6_EZ1zgXkNd-gT-q2_azMqHWvtt4xeJ_m5kNlhlNQ&s '
+                alt='img 2'>
+        </div>
+
+        <div class='container'>
+            <div>
+                <select id='from' type="text">
+                    <option value='en'>english</option>
+                    <option value='ar'>arabic</option>
+                    <option value='es'>espanyol</option>
+                    <option value='tr'>turkish</option>
+                    <option value='he'>hebrew</option>
+                    <option value='zh'>Chinese</option>
+                    <option value='hi'>Hindi</option>
+                    <option value='ru'>Russian</option>
+                </select>
+                <button class="speak" onclick="speakSearch();">&#128483;</button>
+            </div>
+            <form class='translate-box' autocomplete="off">
+                <input id='search' type="text" placeholder="enter to translate">
+            </form>
+        </div>
+
+        <div class='container'>
+            <div>
+                <select id='to' type="text">
+                    <option value='ar'>arabic</option>
+                    <option value='en'>english</option>
+                    <option value='es'>espanyol</option>
+                    <option value='tr'>turkish</option>
+                    <option value='he'>hebrew</option>
+                    <option value='zh'>Chinese</option>
+                    <option value='hi'>Hindi</option>
+                    <option value='ru'>Russian</option>
+                </select>
+                <button class="speak" onclick="speakTranslated();">&#128483;</button>
+            </div>
+            <form class='translate-box' autocomplete="off">
+                <input id='translated' type="text" readonly>
+            </form>
+
+        </div>
+
+        <div class='img2'>
+            <img src="https://jeffreyhill.typepad.com/.a/6a00d8341d417153ef01bb0991cc29970d-800wi" alt="img 2">
+        </div>
+    </div>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script type='text/javascript' src='public/index.js'></script>
+</body>
+
+</html>
